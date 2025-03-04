@@ -1,50 +1,15 @@
-# React + TypeScript + Vite
+## What problem does this project solve?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mybe you are building an App that needs to display a list of items, and you don't want to waste time creating backend code to fetch the data from the database, so this project is for you.
 
-Currently, two official plugins are available:
+## How does this project work?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run this project,you just need 5 simple steps:
 
-## Expanding the ESLint configuration
+1. Install dependencies: `npm install`
+2. Start the server: `npm run dev`
+3. Open the browser and go to `http://localhost:3000`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## What you need to know to customize this project ?
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+This project is built with JavaScript, TypeScript and Express.js, so you need to have some basic knowledge of these technologies.
